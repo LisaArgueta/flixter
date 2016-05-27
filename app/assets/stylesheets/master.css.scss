@@ -9,11 +9,47 @@ html, body {
   font-weight: 400;
   letter-spacing: 5px;
   box-shadow: 0px 1px 3px #2a2a2a;
-  background:url('black_lozenge.png');
+  background:url('slash_it.png');
 }
 
 .navbar-inverse a.navbar-brand {
-  font-family: "bringshootregular", sans-serif;
+  font-family: "lane_-_upperregular", sans-serif;
   font-weight: 100;
   color:white;
 }
+
+.hero {
+  background: url('hero.jpg') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height:350px;
+  box-shadow: 0px 3px 8px #2a2a2a;
+}
+
+h1, h2, h3, h4, h5, h6, .navbar {
+  margin:0;
+}
+
+.frosty {
+  background:rgba(0,0,0, 0.5);
+  color:white;
+}
+
+.frosty h1 {
+  font-family: "lane_-_upperregular", sans-serif;  
+  font-weight: 100;
+  text-shadow: rgba(0,0,0,0.95) 1px 1px;
+}
+
+.frosty h2 {
+  font-family: "lane_-_narrowregular", sans-serif;  
+  font-weight: 200;
+  text-shadow: rgba(0,0,0,0.95) 1px 1px;
+}
+
+.btn {
+  border-radius:0;
+}
+
